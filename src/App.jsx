@@ -10,7 +10,7 @@ function App() {
       <VogueAbout />
       <EditorialSpread />
       <BookingVogue />
-      <footer className="border-t border-white/10 py-10 text-center text-xs uppercase tracking-[0.25em] text-white/50">
+      <footer className="border-t border-red-500/20 py-10 text-center text-xs uppercase tracking-[0.25em] text-red-300/80">
         © {new Date().getFullYear()} Mary Molfix — Tutti i diritti riservati
       </footer>
     </main>

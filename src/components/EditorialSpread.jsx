@@ -27,7 +27,7 @@ export default function EditorialSpread() {
       <div className="mx-auto max-w-6xl px-6 md:px-10">
         <header className="mb-10 flex items-end justify-between">
           <div>
-            <p className="text-[11px] uppercase tracking-[0.3em] text-white/60">Portfolio</p>
+            <p className="text-[11px] uppercase tracking-[0.3em] text-red-300">Portfolio</p>
             <h2 className="mt-2 font-[900] text-4xl uppercase md:text-6xl" style={{ fontFamily: 'Mona Sans, Inter, system-ui, sans-serif' }}>Editoriale</h2>
           </div>
           <p className="hidden max-w-sm text-sm leading-relaxed text-white/60 md:block">Selezione curata di lavori tra direzione artistica, coreografie e performance. Estetica high-fashion con energia street.</p>
@@ -49,16 +49,16 @@ export default function EditorialSpread() {
                   : 'group relative md:col-span-12'
               }
             >
-              <div className="relative aspect-[4/5] overflow-hidden rounded-md border border-white/10">
+              <div className="relative aspect-[4/5] overflow-hidden rounded-md border border-red-500/20">
                 <img src={s.image} alt={s.title} className="h-full w-full object-cover transition duration-700 group-hover:scale-[1.05]" />
                 <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-neutral-950/80 via-neutral-950/0 to-transparent" />
 
                 <div className="absolute bottom-0 left-0 right-0 p-5">
-                  <div className="flex items-center justify-between text-xs uppercase tracking-[0.25em] text-white/70">
+                  <div className="flex items-center justify-between text-xs uppercase tracking-[0.25em] text-red-300/80">
                     <span>{s.year}</span>
                     <span>{s.subtitle}</span>
                   </div>
-                  <h3 className="mt-2 font-semibold text-2xl uppercase md:text-3xl">{s.title}</h3>
+                  <h3 className="mt-2 font-semibold text-2xl uppercase text-red-100 md:text-3xl">{s.title}</h3>
                 </div>
               </div>
             </motion.article>
